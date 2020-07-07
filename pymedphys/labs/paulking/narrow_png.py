@@ -18,7 +18,7 @@
 
 from pymedphys._imports import numpy as np
 
-import matplotlib.image as mpimg
+from matplotlib import image as mpimg
 
 from PIL import Image
 

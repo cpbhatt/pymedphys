@@ -15,15 +15,14 @@
 
 """Create a report of csv file comparisons.
 """
-
 import os
-
-import numpy as np
-import pandas as pd
 
 from csv_compare import compare as _compare
 from IPython.display import HTML, Markdown, display
 from jinja2 import Template
+
+import numpy as np
+import pandas as pd
 
 
 def _create_comparison_table(data):

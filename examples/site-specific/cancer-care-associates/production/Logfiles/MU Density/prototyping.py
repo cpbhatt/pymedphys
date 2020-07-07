@@ -5,16 +5,17 @@ import re
 import sys
 import traceback
 
+import IPython.display
+
 import numpy as np
 import pandas as pd
 
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 import imageio
 
 import pydicom
 
-import IPython.display
 import pymedphys
 from pymedphys._mosaiq.helpers import FIELD_TYPES
 

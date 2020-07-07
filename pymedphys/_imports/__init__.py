@@ -1,5 +1,4 @@
 # pylint: disable = import-error
-
 import importlib
 
 import pymedphys._vendor.apipkg
@@ -63,52 +62,57 @@ IMPORTABLES = dir(THIS)
 
 # This will never actually run, but it helps pylint know what's going on
 if "numpy" not in IMPORTABLES:
-    import matplotlib.pyplot
-    import matplotlib.pyplot as plt
-    import matplotlib.path
-    import matplotlib.patches
-    import matplotlib.transforms
-    import matplotlib
-    import mpl_toolkits.mplot3d.art3d
-    import mpl_toolkits
-    import numpy
+    import attr
+    import dateutil
+    import dbfread
+    import keyring
+    import packaging
+    import pymssql
+    import pynetdicom
+    import requests
+    import shapely
     import shapely.affinity
     import shapely.geometry
     import shapely.ops
-    import shapely
-    import pymssql
-    import keyring
-    import packaging
-    import yaml
-    import scipy.interpolate
-    import scipy.special
-    import scipy.optimize
-    import scipy.ndimage.measurements
-    import scipy.ndimage
-    import scipy.signal
-    import scipy
-    import pandas
-    import dbfread
-    import pydicom.uid
-    import pydicom.dataset
-    import pydicom.sequence
-    import pydicom.filebase
-    import pydicom
-    import pynetdicom
+    import streamlit
+    import timeago
+    import toml
     import tqdm
-    import dateutil
-    import PIL
-    import imageio
-    import skimage.measure
-    import skimage
-    import requests
-    import attr
     import watchdog
     import watchdog.events
     import watchdog.observers
     import watchdog.observers.polling
-    import toml
-    import streamlit
-    import timeago
+    import yaml
+
+    import numpy
+    import pandas
+    import scipy
+    import scipy.interpolate
+    import scipy.ndimage
+    import scipy.ndimage.measurements
+    import scipy.optimize
+    import scipy.signal
+    import scipy.special
+
+    import matplotlib
+    import matplotlib.patches
+    import matplotlib.path
+    import matplotlib.pyplot
+    import matplotlib.pyplot as plt
+    import matplotlib.transforms
+    import mpl_toolkits
+    import mpl_toolkits.mplot3d.art3d
+    from matplotlib import pyplot as plt
+
+    import imageio
+    import PIL
+    import skimage
+    import skimage.measure
+
+    import pydicom
+    import pydicom.dataset
+    import pydicom.filebase
+    import pydicom.sequence
+    import pydicom.uid
 
     raise ValueError("This section of code should never run")

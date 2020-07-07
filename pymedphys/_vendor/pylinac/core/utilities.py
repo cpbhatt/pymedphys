@@ -21,14 +21,13 @@
 
 
 """Utility functions for pylinac."""
-
 import collections
 import decimal
 import os
-import os.path as osp
 import struct
 import subprocess
 from datetime import datetime
+from os import path as osp
 
 from pymedphys._imports import numpy as np
 from pymedphys._imports import pydicom

@@ -25,8 +25,8 @@ from pymedphys._imports import numpy as np
 
 from scipy import interpolate
 
-import matplotlib.image as mpimg
-import matplotlib.pyplot as plt
+from matplotlib import image as mpimg
+from matplotlib import pyplot as plt
 
 import PIL
 

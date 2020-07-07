@@ -1,7 +1,7 @@
 import numpy as np
 from scipy import signal
 
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 from . import running_mean as rm
 

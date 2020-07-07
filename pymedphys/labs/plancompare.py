@@ -15,12 +15,11 @@
 
 """Compare Mosaiq fields using MU Density
 """
-
 import itertools
 
 from pymedphys._imports import numpy as np
 
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 import pymedphys
 
