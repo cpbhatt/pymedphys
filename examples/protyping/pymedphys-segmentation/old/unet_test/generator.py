@@ -1,14 +1,14 @@
 import functools
 from pathlib import Path
 
+import tensorflow as tf
+
 import numpy as np
 
 import skimage.draw
 import skimage.transform
 
 import pydicom
-
-import tensorflow as tf
 
 
 class DataGen(tf.keras.utils.Sequence):
