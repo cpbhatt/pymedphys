@@ -20,6 +20,7 @@ from os.path import join as pjoin
 from zipfile import ZipFile
 
 import pytest
+from test_coords import get_data_file
 
 import numpy as np
 
@@ -27,7 +28,6 @@ import pydicom
 
 from pymedphys._dicom.collection import DicomDose
 from pymedphys._dicom.dose import require_patient_orientation_be_HFS
-from test_coords import get_data_file
 
 HERE = dirname(abspath(__file__))
 DATA_DIRECTORY = pjoin(HERE, "data", "dose")
