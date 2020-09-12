@@ -5,11 +5,11 @@ Created on Oct 12, 2018
 
 import math
 
-import numpy as np
-
 import keras.backend as K
 import tensorflow as tf
 from sklearn.utils.extmath import cartesian
+
+import numpy as np
 
 ## weighted hausdorff distance based on "Locating Objects Without Bounding Boxes" (https://arxiv.org/pdf/1806.07564.pdf)
 ## based implementation off of original author's PyTorch implementation (https://github.com/HaipengXiong/weighted-hausdorff-loss)
