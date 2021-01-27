@@ -20,11 +20,11 @@ import datetime
 import json
 import os
 
-import numpy as np
-
 import mosaiq_connection as msq_c
 import mosaiq_field_export as msq_x
 from IPython.display import Markdown, display
+
+import numpy as np
 
 msq_x.use_mlc_missing_byte_workaround()
 

@@ -1,10 +1,10 @@
 import functools
 
+import tensorflow as tf
+
 import numpy as np
 
 import matplotlib.pyplot as plt
-
-import tensorflow as tf
 
 
 def reduce_expanded_mask(expanded_mask, img_size, expansion):
