@@ -1,9 +1,8 @@
 # https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.interp1d.html
+import xlwings as xw
 
 import numpy as np
 from scipy import interpolate
-
-import xlwings as xw
 
 
 @xw.func

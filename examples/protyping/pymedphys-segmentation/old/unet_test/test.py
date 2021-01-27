@@ -1,9 +1,9 @@
-import matplotlib.pyplot as plt
-
 from generator import DataGen
 from header import *
 from model_test1 import *
 from paths import *
+
+from matplotlib import pyplot as plt
 
 input_paths, context_paths, label_paths = get_paths(DATA_PATH, CONTEXT)
 

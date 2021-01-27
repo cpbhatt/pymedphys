@@ -16,14 +16,12 @@
 # pylint: disable = no-value-for-parameter, pointless-string-statement, redefined-outer-name
 
 """An example of showing geographic data."""
-
+import altair as alt
+import pydeck as pdk
 import streamlit as st
 
 import numpy as np
 import pandas as pd
-
-import altair as alt
-import pydeck as pdk
 
 DATE_TIME = "date/time"
 DATA_URL = (

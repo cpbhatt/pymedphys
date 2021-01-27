@@ -42,7 +42,7 @@ from tqdm import tqdm
 
 import numpy as np
 
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 from PIL import Image

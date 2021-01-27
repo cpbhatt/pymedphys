@@ -12,13 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """Module exposing surface distance based measures."""
-
 from __future__ import absolute_import, division, print_function
+
+import lookup_tables  # pylint: disable=relative-beyond-top-level
 
 import numpy as np
 from scipy import ndimage
-
-import lookup_tables  # pylint: disable=relative-beyond-top-level
 
 
 def compute_surface_distances(mask_gt, mask_pred, spacing_mm):

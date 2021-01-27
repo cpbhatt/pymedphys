@@ -17,12 +17,11 @@ import pathlib
 import sys
 
 import streamlit
-import streamlit.bootstrap as bootstrap
+import tornado
+from streamlit import bootstrap as bootstrap
 from streamlit import config
 from streamlit.ConfigOption import ConfigOption
 from streamlit.server.Server import Server
-
-import tornado
 
 streamlit._is_running_with_streamlit = True
 
