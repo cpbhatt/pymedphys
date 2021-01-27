@@ -16,6 +16,8 @@ import functools
 from pathlib import Path
 from random import randint
 
+import tensorflow as tf
+
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -25,8 +27,6 @@ import skimage.transform
 
 # Perhaps use tf.io instead
 import pydicom
-
-import tensorflow as tf
 
 # TODO - Modulate get_item
 

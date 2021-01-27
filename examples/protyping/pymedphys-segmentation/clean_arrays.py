@@ -2,11 +2,11 @@ import glob
 import os
 import sys
 
+import paths as paths
+
 import numpy as np
 
 from matplotlib import pyplot as plt
-
-import paths as paths
 
 PATH = "./prostate_dataset_cleaned/"
 SAVE_DIR = "./prostate_dataset_figures/"

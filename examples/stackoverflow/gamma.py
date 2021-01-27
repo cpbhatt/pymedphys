@@ -7,6 +7,7 @@ if __name__ == "__main__":
     os.system("pip install numpy scipy pydicom")
 
     import pydicom
+
     import pymedphys
 
     reference_filepath = pymedphys.data_path("original_dose_beam_4.dcm")
