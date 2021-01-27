@@ -2,14 +2,6 @@ import glob
 import random
 from datetime import datetime
 
-import numpy as np
-from scipy.ndimage.filters import gaussian_filter
-from scipy.ndimage.interpolation import map_coordinates
-
-from matplotlib import pyplot as plt
-
-import skimage.transform
-
 # CONFIG FILE
 import config_vacbag_tversky as config
 import cv2
@@ -17,6 +9,14 @@ import loss as loss
 import paths as paths
 import tensorflow as tf
 import unet as unet
+
+import numpy as np
+from scipy.ndimage.filters import gaussian_filter
+from scipy.ndimage.interpolation import map_coordinates
+
+from matplotlib import pyplot as plt
+
+import skimage.transform
 
 physical_devices = tf.config.experimental.list_physical_devices("GPU")
 assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
